@@ -1,0 +1,167 @@
+
+        .banner1{
+            width: 60%;margin: 15px auto; 
+            text-align: center; 
+        }
+        .banner1 p{
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 40px;
+        }
+        .banner2 p{
+            font-size: 20px;
+            color: rgb(62, 179, 40);
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .fb{
+        width: 60px;
+         height: 60px;
+          background: blue;
+           font-size: 30px;
+            color: #fff;
+             text-align: center;
+              line-height: 59px;
+               margin: 4px 0px;
+    }
+    .youtb{
+        width: 60px;
+         height: 60px;
+          background: #E14E42;
+           font-size: 30px;
+            color: #fff;
+             text-align: center;
+              line-height: 59px;
+               margin: 4px 0px;
+    }
+    .zing{
+        width: 60px;
+         height: 60px;
+          background: #00adff;
+           font-size: 30px;
+            color: #fff;
+             text-align: center;
+              line-height: 59px;
+               margin: 4px 0px;
+    }
+    .fb:hover{
+        width: 90px;
+        
+         transition: all 0.5s;
+    }
+    .zing:hover{
+        width: 90px;
+        
+         transition: all 0.5s;
+    }
+    .youtb:hover{
+        width: 90px;
+        
+         transition: all 0.5s;
+    }
+    .footer{
+        width: 1018px;
+         margin: 0px auto;
+          color: #fff;
+    }
+    .footer a{
+        color: yellow;
+    }
+    .footer a:hover{
+        color: red;
+    }
+        .level{
+            margin-top: 50px;
+        }
+        .level ul li{
+            display: inline-block;
+            margin: 0px 30px 10px 0px;
+        }
+        .ft-2{
+            width: 20%;  float: left; color: #fff; font-weight: bold;
+        }
+        .ft-2 p a{
+            color: #fff;
+        }
+        .cart-wrap {
+         
+          height: 400px;
+       
+          overflow: hidden;
+        }
+        .cart {
+          position: relative;
+          transform-style: preserve-3d;
+          -webkit-transform-style: preserve-3d;
+          height: 100%;
+          transition: transform .5s;
+        }
+        .cart-front,
+        .cart-back {
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          backface-visibility: hidden;
+          width: 80%;
+          height:80%;
+         
+          text-align: center;
+        }
+        .cart-front {
+         
+          color: white;
+          z-index: 2;
+        }
+        .cart-back {
+            border-radius: 15px;
+         background-color: #00bcd4;
+          z-index: 3;
+          transform: rotateY(180deg);
+        }
+        .cart-wrap:hover .cart {
+          transform: rotateY(180deg);
+        }
+        .scrolltop{
+        position: fixed; 
+        right:0px; 
+        bottom:360px; 
+        width:60px; 
+        height:60px; 
+        background: black;
+        color : red;
+        
+        border-radius:50%;
+        display: none;
+        
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    .scrolltop:hover{
+       background: #fff;
+    }
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+       
+        
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
