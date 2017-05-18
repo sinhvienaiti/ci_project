@@ -1,4 +1,6 @@
 <?php
+
+// sửa bừa 1 dòng như này, nhớ phải save lại, khi có file thay đổi, gõ git status, nó sẽ hiện ra các file có sự thay đổi
 /**
  * CodeIgniter
  *
